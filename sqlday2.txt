@@ -1,0 +1,59 @@
+
+
+insert into product values(pid,pname,price);
+
+
+
+update product  set  pname = ? , price = ?  where pid = ?;
+
+	pstmt.setString(1,pname);
+	
+
+
+	
+delete from product  where pid = ?;
+
+
+select * from product  where pid = ?;
+
+
+
+
+
+
+
+
+
+
+
+
+DELIMITER $$
+
+CREATE PROCEDURE  product_pro(pid int , pname varchar(20) , price double(7,2) )
+
+INSERT INTO product  VALUES(pid,pname,price);
+
+update product  set price = 4000 where pid = 101;
+
+
+$$
+DELIMITER ;
+
+
+
+
+
+
+
+
+
+
+
+
+procedure:
+
+DELIMITER $$
+CREATE PROCEDURE add_product(IN pname varchar(100), IN pprice decimal(10,2))
+INSERT INTO product (pname, price) VALUES (pname, price)
+$$
+DELIMITER ;

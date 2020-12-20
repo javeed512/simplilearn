@@ -1,0 +1,18 @@
+Server Types:
+----------------
+
+1.Web Server: It provides static content to a web browser by loading a file from a disc and transferring it across the network to the user’s web browser. This exchange is intermediates by the browser and the server, communicating using HTTP.
+
+2.Application Server: Also known as a type of middleware, it occupies a substantial amount of computing region between database servers and the end user, and is commonly used to connect the two.
+
+3.FTP Server:It works on one of the oldest of the Internet services, the file transfer protocol. It provides a secure file transfer between computers while ensuring file security and transfer control.
+
+4.IRC Server:It is an ideal option for those looking for real-time discussion capabilities. Internet Relay Chat comprises different network servers that enable the users to connect to each other to an IRC network.
+
+5.Groupware Server:It is a software designed that enables the users to work together, irrespective of the location, through the Internet or a corporate intranet and to function together in a virtual atmosphere.
+
+6.Mail Server:  It transfers and stores emails over corporate networks through LANs, WANs and across the Internet.
+
+7.Proxy Server: It acts as a mediator between a client program and an external server to filter requests, improves performance and share connections.
+
+

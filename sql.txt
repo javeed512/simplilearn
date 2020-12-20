@@ -1,0 +1,27 @@
+
+1. create database
+ 	
+	CREATE DATABASE  mydb;
+
+2.  show all databases
+
+	show databases;
+
+3. switch to DB
+
+	USE DATABASE_NAME;
+
+4. create table
+
+	CREATE TABLE product(pid int,pname varchar(20),price double(7,2));
+
+
+5.  describe  table
+	desc  product;
+
+
+
+
+
+
+
